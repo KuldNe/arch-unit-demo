@@ -30,6 +30,9 @@ dependencies {
     testImplementation 'com.tngtech.archunit:archunit-junit5:1.1.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation 'org.hibernate:hibernate-jcache:5.4.10.Final'
+    implementation 'org.ehcache:ehcache:3.6.3'
 }
 
 tasks.named('test') {
